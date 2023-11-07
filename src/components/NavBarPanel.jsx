@@ -18,7 +18,7 @@ const NavBar = () => {
         {/* <Navbar.Toggle aria-controls="navbarScroll" className="bg-light" /> */}
         <Navbar.Collapse className="justify-content-end">
           <Nav>
-            <Nav.Link as={Link} to="/" className="font-weight-bold">
+            <Nav.Link as={Link} to="/dashboard" className="font-weight-bold">
             <span className="shopping">Products</span>
             </Nav.Link>
           </Nav>
